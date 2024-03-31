@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>CSS3 Lightbox</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="CSS3 Lightbox - A CSS-only lightbox" />
+        <meta name="keywords" content="css3, lightbox, overlay, effect, images, thumbnails, navigate" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style3.css" />
+    </head>
+    <body id="page">
+        <div class="container">
+			<header>
+				<h1>ECommerce<span>Artesanias</span></h1>
+				<h2>Un experimento con maderas , diseños, tejidos</h2>
+				<p class="codrops-demos">
+					<a href="index.html">Categoria 1</a>
+					<a href="index2.html">Categoria 2</a>
+                    <a href="index3.html">Categoria 3</a>
+                    <a href="index4.html">Categoria 4</a>
+					<a class="current-demo" href="index5.html">Categoria 5</a>
+				</p>
+            </header>
+			<section>
+				<ul class="lb-album">
+					<li>
+						<a href="#image-1">
+							<img src="Cat/C50101.jpg" alt="image01"style="width: 190px; height: 150px;">
+							<span>Rebellion</span>
+						</a>
+						<div class="lb-overlay" id="image-1">
+							<a href="#page" class="lb-close">x Cerrar</a>
+							<img src="imag/C50101.jpg" alt="image01" />
+							<div>
+								<h3>Chaleco Blanco<span>/Tejidos a mano/</h3>
+								<p>Estos tejidos son hecho a mano de punto calado abrigo de media estacion para final del invierno y recibir la primavera .</p>
+							</div>
+							
+						</div>
+					</li>
+					<li>
+						<a href="#image-2">
+							<img src="Cat/C50102.jpg" alt="image02" style="width: 190px; height: 150px;">
+							<span>Chompas</span>
+						</a>
+						<div class="lb-overlay" id="image-2">
+							<img src="imag/C50102.jpg" alt="image02" />
+							<div>							
+								<h3>Chompas de damas<span>/Tejidos a mano/</h3>
+								<p>Estos tejidos son hechos a mano para damas  de color plomo .</p>
+							</div>
+							<a href="#page" class="lb-close">x Cerrar</a>
+						</div>
+					</li>
+					<li>
+						<a href="#image-3">
+							<img src="Cat/C50103.JPG" alt="image03"  style="width: 190px; height: 150px;">
+							<span>Chaleco</span>
+						</a>
+						<div class="lb-overlay" id="image-3">
+							<img src="imag/C50103.JPG" alt="image03" />
+							<div>							
+								<h3>Chaleco de Patron<span>/Tejidos a mano/</h3>
+								<p>Estos tejidos son hechos a mano de unos colores suaves.</p>
+							</div>
+							<a href="#page" class="lb-close">x Cerrar</a>
+						</div>
+					</li>
+					<li>
+						<a href="#image-4">
+							<img src="Cat/C50201.JPG" alt="image04" style="width: 190px; height: 150px;">
+							<span>Chullo</span>
+						</a>
+						<div class="lb-overlay" id="image-4">
+							<img src="imag/C50201.JPG" alt="image04" />
+							<div>							
+								<h3>Chullo Rojo<span>/Tejidos a mano/</h3>
+								<p>Estos tejidos son hechos a mano de unos  diseños creativos y colores .</p>
+							</div>
+							<a href="#page" class="lb-close">x Cerrar</a>
+						</div>
+					</li>
+					<li>
+						<a href="#image-5">
+							<img src="Cat/C50202.JPG" alt="image05" style="width: 190px; height: 150px;">
+							<span>Chullo</span>
+						</a>
+						<div class="lb-overlay" id="image-5">
+							<img src="imag/C50202.JPG" alt="image05" />
+							<div>							
+								<h3>Chullo Marron Claro<span>/Tejidos a mano/</h3>
+                                <p>Estos tejidos son hechos a mano de unos  diseños creativos de animales y colores .</p>
+							</div>
+							<a href="#page" class="lb-close">x Cerrar</a>
+						</div>
+					</li>
+					<li>
+						<a href="#image-6">
+							<img src="Cat/C50203.JPG" alt="image06" style="width: 190px; height: 150px;">
+							<span>Chullo </span>
+						</a>
+						<div class="lb-overlay" id="image-6">
+							<img src="imag/C50203.JPG" alt="image06" />
+							<div>							
+								<h3>Chullo Crema<span>/Tejidos a mano/</h3>
+                             <p>Estos tejidos son hechos a mano de unos  diseños creativos de animales , flores y colores .</p>
+							</div>
+							<a href="#page" class="lb-close">x Cerrar</a>
+						</div>
+					</li>
+					<li>
+						<a href="#image-7">
+							<img src="Cat/C50204.JPG" alt="image07" style="width: 190px; height: 150px;">
+							<span>Medias</span>
+						</a>
+						<div class="lb-overlay" id="image-7">
+							<img src="imag/C50204.JPG" alt="image07" />
+							<div>							
+                                <h3>Medias Rojos<span>/Tejidos a mano/</h3>
+                            <p>Estos tejidos nos representa a  animales  con unos colores intensos  .</p>
+							</div>
+							<a href="#page" class="lb-close">x Cerrar</a>
+						</div>
+					</li>
+					<li>
+						<a href="#image-8">
+							<img src="Cat/C50205.jpg" alt="image08" style="width: 190px; height: 150px;">
+							<span>Medias<span>
+						</a>
+						<div class="lb-overlay" id="image-8">
+							<img src="imag/C50205.jpg" alt="image08" />
+							<div>							
+								<h3>Medias Negras<span>/Tejidos a mano/</h3>
+								<p>Estos tejidos nos representa a  animales con dos colores que es negro y blanco.</p>
+							</div>
+							<a href="#page" class="lb-close">x Cerrar</a>
+						</div>
+					</li>
+
+					<li>
+                        <a href="#image-9">
+                            <img src="Cat/C50206.JPG" alt="image09" style="width: 190px; height: 150px;">
+                            <span>Medias </span>
+                        </a>
+                        <div class="lb-overlay" id="image-9">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50206.JPG" alt="image09" />
+                            <div>                           
+                                <h3>Medias Blancas<span>/Tejidos a mano/</h3>
+                             <p>Estos tejidos nos representa a  animales con dos colores que es negro y blanco.</p>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#image-10">
+                            <img src="Cat/C50301.JPG" alt="image10" style="width: 190px; height: 150px;">
+                            <span>Guantes<span>
+                        </a>
+                        <div class="lb-overlay" id="image-10">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50301.JPG" alt="image10" />
+                            <div>                           
+                                <h3>Guantes Negros<span>/Tejidos a mano/</h3>
+                                <p>Estos tejidos nos representa a  animales con dos colores que es negro y crema.</p>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#image-11">
+                            <img src="Cat/C50302.JPG" alt="image11" style="width: 190px; height: 150px;">
+                            <span>Guantes</span>
+                        </a>
+                        <div class="lb-overlay" id="image-11">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50302.JPG" alt="image11" />
+                            <div>                           
+                                <h3>Guantes Mostaza<span>/Tejidos a mano/</h3>
+                                    <p>Estos tejidos  de color  crema y mostaza muy suaves .</p>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#image-12">
+                            <img src="Cat/C50303.JPG" alt="image12" style="width: 190px; height: 150px;">
+                            <span>Guantes</span>
+                        </a>
+                        <div class="lb-overlay" id="image-12">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50303.JPG" alt="image12" />
+                            <div>                           
+                                <h3>Guantes Rojos<span>/Tejidos a mano/</h3>
+                                    <p>Estos tejidos son multicolor llamativos.</p>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#image-13">
+                            <img src="Cat/C50401.JPG" alt="image13" style="width: 190px; height: 150px;">
+                            <span>Capas</span>
+                        </a>
+                        <div class="lb-overlay" id="image-13">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50401.JPG" alt="image13" />
+                            <div>                           
+                                <h3>Capas Crema<span>/costuras hermosas/</h3>
+                                    <p>Estas capas de telar artesanal de color crema muy hermoso . </p>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#image-14">
+                            <img src="Cat/C50402.JPG" alt="image14" style="width: 190px; height: 150px;">
+                            <span>Capas</span>
+                        </a>
+                        <div class="lb-overlay" id="image-14">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50402.JPG" alt="image14" />
+                            <div>                           
+                                <h3>Capas Mostaza<span>/costuras hermosas/</h3>
+                                    <p>Estas capas de telar artesanal de color mostaza muy intenso . </p>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#image-15">
+                            <img src="Cat/C50403.JPG" alt="image15" style="width: 190px; height: 150px;">
+                            <span>Manton</span>
+                        </a>
+                        <div class="lb-overlay" id="image-15">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50403.JPG" alt="image15" />
+                            <div>                           
+                                <h3>Manton Morado<span>/costuras hermosas/</h3>
+                                <p>Este manton de telar artesanal de color morado oscuro que se puede poner varias formas.</p>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#image-16">
+                            <img src="Cat/C50404.JPG" alt="image16" style="width: 190px; height: 150px;">
+                            <span>Capas</span>
+                        </a>
+                        <div class="lb-overlay" id="image-16">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50404.JPG" alt="image16" />
+                            <div>                           
+                                <h3>Capas Rojas <span>/costuras hermosas/</h3>
+                                    <p>Esta capa de telar artesanal de color rojo muy intenso.</p>
+                            </div>
+
+                        </div>
+                    </li>
+
+					<li>
+                        <a href="#image-17">
+                            <img src="Cat/C50405.JPG" alt="image17" style="width: 190px; height: 150px;">
+                            <span>Poncho</span>
+                        </a>
+                        <div class="lb-overlay" id="image-17">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50405.JPG" alt="image17" />
+                            <div>                           
+                                <h3>Poncho Plomo<span>/costuras hermosas/</h3>
+                                <p>Este Poncho es de color plomo  para hombres.</p>
+                            </div>
+    
+                        </div>
+                        <li>
+                    <a href="#image-18">
+                        <img src="Cat/C50406.JPG" alt="image18" style="width: 190px; height: 150px;">
+                        <span>Poncho</span>
+                    </a>
+                    <div class="lb-overlay" id="image-18">
+                        <a href="#page" class="lb-close">x Cerrar</a>
+                        <img src="imag/C50406.JPG" alt="image18" />
+                        <div>                           
+                            <h3>Poncho Fucsia<span>/costuras hermosas/</h3>
+                                <p>Este Poncho es de color fucsia para damas .</p>
+                        </div>
+
+                    </div>
+                    <li>
+                <a href="#image-19">
+                        <img src="Cat/C50407.JPG" alt="image19" style="width: 190px; height: 150px;">
+                        <span>Poncho</span>
+                </a>
+                <div class="lb-overlay" id="image-19">
+                    <a href="#page" class="lb-close">x Cerrar</a>
+                    <img src="imag/C50407.JPG" alt="image19" />
+                    <div>                           
+                        <h3>Poncho Fucsia<span>/costuras hermosas/</h3>
+                            <p>Este Poncho es muy multicolor asi nos representa los tejidos.</p>
+                    </div>
+
+                </div>
+                <li>
+            <a href="#image-20">
+                <img src="Cat/C50501.JPG" alt="image20" style="width: 190px; height: 150px;">
+                <span>chalina</span>
+            </a>
+            <div class="lb-overlay" id="image-20">
+                <a href="#page" class="lb-close">x Cerrar</a>
+                <img src="imag/C50501.JPG" alt="image20" />
+                <div>                           
+                    <h3>Chalina Morada<span>/Tejidos Mano/</h3>
+                    <p>Este tejido de chalina es para abrigar en el frio con un color fuerte.</p>
+                </div>
+
+                 </div>
+               </li>
+               <li>
+                   <a href="#image-21">
+                     <img src="Cat/C50502.JPG" alt="image21" style="width: 190px; height: 150px;">
+                <span>Chalina</span>
+             </a>
+               <div class="lb-overlay" id="image-21">
+                <a href="#page" class="lb-close">x Cerrar</a>
+               <img src="imag/C50502.JPG" alt="image21" />
+          <div>                         
+            <h3>Chalina Blanca<span>/Tejidos Mano/</h3>
+                <p>Este tejido es especial para abrigar el cuello de un color suave .</p>
+        </div>
+
+          </div>
+         </li>
+                    <li>
+                        <a href="#image-22">
+                            <img src="Cat/C50503.JPG" alt="image22" style="width: 190px; height: 150px;">
+                            <span>Chalina</span>
+                        </a>
+                        <div class="lb-overlay" id="image-22">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50503.JPG" alt="image22" />
+                            <div>                           
+                                <h3>Chalina Mostaza<span>/Tejidos Mano/</h3>
+                                <p>Este tejido es especial para abrigar el cuello de color intenso.</p>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#image-23">
+                            <img src="Cat/C50601.JPG" alt="image23" style="width: 190px; height: 150px;">
+                            <span>Chompa</span>
+                        </a>
+                        <div class="lb-overlay" id="image-23">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50601.JPG" alt="image23" />
+                            <div>                           
+                                <h3>Chompa de Dama <span>/costura artesanal/</h3>
+                                <p>Descubre esta costura con unos colores y diseños creativos .</p>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#image-24">
+                            <img src="Cat/C50602.JPG" alt="image24" style="width: 190px; height: 150px;">
+                            <span>Chompa </span>
+                        </a>
+                        <div class="lb-overlay" id="image-24">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50602.JPG" alt="image24" />
+                            <div>                           
+                                <h3>Chompa Mostaza<span>/costura artesanal/</h3>
+                                <p>Estas costuras son hechas a mano para damas con un color intenso .</p>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#image-25">
+                            <img src="Cat/C50603.JPG" alt="image25" style="width: 190px; height: 150px;">
+                            <span>Polo</span>
+                        </a>
+                        <div class="lb-overlay" id="image-25">
+                            <a href="#page" class="lb-close">x Cerrar</a>
+                            <img src="imag/C50603.JPG" alt="image25" />
+                            <div>                           
+                                <h3>Polo Mangas<span>/costura artesanal/</h3>
+                                    <p> Estas costuras es para dama muy hermoso para mostrar la artesania cusqueña .</p>
+                            </div>
+
+                        </div>
+                    </li>
+                   
+				</ul>
+			</section>
+        </div>
+    </body>
+</html>
